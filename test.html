@@ -2,9 +2,15 @@
 	<head>
 		<title>My Awesome Web Page</title>
 		<link rel="stylesheet" href="screen.css" type="text/css" />
+		<script type="text/javascript" charset="utf-8">
+			function sayHello()
+			{
+				document.getElementById('foo').innerHTML = "Hi There!";
+			}
+		</script>
 	</head>
 	<body>
-		<h1 class="loud"> Hi There </h1>
+		<hi id="foo" onclick="sayHello()">Click Me! </h1>
 		<p> Thanks for visiting my web page </p>
 		<p> I <em>really</em> hope you like it </p>
 		<ul>
