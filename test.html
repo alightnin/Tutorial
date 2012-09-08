@@ -2,10 +2,11 @@
 	<head>
 		<title>My Awesome Web Page</title>
 		<link rel="stylesheet" href="screen.css" type="text/css" />
+		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" charset="utf-8">
 			function sayHello()
 			{
-				document.getElementById('foo').innerHTML = "Hi There!";
+				$('#foo').text("Hi There!");
 			}
 		</script>
 	</head>
